@@ -9,26 +9,54 @@
 
         <div>
             <form>
+                <!-- First and Last Name -->
                 <label for="firsName"><strong>First Name:</strong></label>
                     <input id="firstName" type="text" placeholder="First Name" required>
                 <label for="lastName"><strong>Last Name:</strong></label>
                     <input id="lastName" type="text" placeholder="Last Name" required>
                 <div>
-                    <label name="male"><strong>Male:</strong></lable>
-                        <input name="genderChoice" id="gender" type="radio" value="male" required>
-                    <label name="female"><strong>Female:</strong></label>
-                        <input name="genderChoice" id="gender" type="radio" value="female" required>
-                    <label name="female"><strong>other:</strong></label>
-                        <input name="genderChoice" id="gender" type="radio" value="other" required>
-
+                    <!-- Gender Selection -->
+                    <label for="male"><strong>Male:</strong></lable>
+                        <input name="genderChoice" id="male" type="radio" value="male" required>
+                    <label for="female"><strong>Female:</strong></label>
+                        <input name="genderChoice" id="female" type="radio" value="female" required>
+                    <label for="other"><strong>Other:</strong></label>
+                        <input name="genderChoice" id="other" type="radio" value="other" required>
                 <div>
+                    <!-- Email and Password -->
                     <label name="email"><strong>Email:</strong></label>
-                        <input name="email" id="email" type="text" placeholder="email" required>
+                        <input name="email" id="email" type="email" placeholder="email" required>
                     <label name="password"><strong>Password:</strong></label>
-                        <input name="password" id="password" type="password" placeholder="password" required>
+                        <input name="password" type="password" placeholder="password" pattern=".{5,10}" required title = "Password must be 5 to 10 characters">
+                </div>
+                    <!-- Birthday mm/dd/yyyy-->
+                    <label name="birthday"><strong>Birthday:</strong></label>
+                    <select name="month">
+                        <option>Month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                    </select>
+                    <select name="day">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select name="year">
+                    <select>
+                        <option>Year</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                    </select>
+                <div>
+                    <!-- Terms and Conditions -->
+                    <label form="agreed">I agree to the terms and conditions</lable>
+                        <input name="agreed" id="agreed" type="radio" value="terms" required>
                 </div>
                 <div>
-
+                    <!-- Submission -->
+                    <button>Submit</button>
                 </div>
             </form>
 
