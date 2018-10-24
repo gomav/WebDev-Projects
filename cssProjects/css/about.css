@@ -1,5 +1,9 @@
 h1{
     color: peru;
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: violet;*/
+    border: 8px dashed violet
 }
 
 li{
@@ -12,5 +16,8 @@ h4{
 }
 
 body{
+    /*background: url(https://trickvilla.com/wp-content/uploads/Painted-Wood-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
     background: pink;
 }
