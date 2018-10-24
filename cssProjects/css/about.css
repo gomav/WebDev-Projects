@@ -1,11 +1,16 @@
 h1{
-    color: red;
+    color: peru;
 }
 
 li{
-    color: green;
+    color: RGB(11, 99, 150);
 }
 
 h4{
-    color: purple;
+    color: RGBA(11, 95, 150, .2);
+    background: RGB(255,100,80);
+}
+
+body{
+    background: pink;
 }
