@@ -1,3 +1,23 @@
+/*Type Selectors*/
+/*
+li a{
+}
+li{
+}
+li + a{
+}*/
+/*Class, Attribute,and Pseudo-Class Selectors*/
+/*.hello{
+
+}*/
+
+/*input [type="text"]{
+
+}*/
+/*ID Selectors*/
+/*#hello{
+
+}*/
 ul{
     color: purple;
 }
@@ -8,4 +28,16 @@ body{
 
 ul{
     color: blue;
+}
+
+li{
+    color: orange;
+}
+
+.highlight{
+    color: yellow;
+}
+
+#special{
+    color: pink;
 }
