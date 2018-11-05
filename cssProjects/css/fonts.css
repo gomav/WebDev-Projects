@@ -1,10 +1,11 @@
 /*font-family*/
 p{
-    font-family: Arial;
+    font-family: 'Poor Story', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 
 h1{
-    font-family: georgia;
+    font-family: 'Indie Flower';
 }
 /*font-size*/
 
@@ -27,7 +28,7 @@ span{
 /*font-weight - can manipulate weight from 100 - 800*/
 
 p{
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /*line-height*/
